@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Morse_decoder-blueviolet)
 
-# Project Name
+# Morse Decoder
 
 > Morse decoder is a ruby program that decrypts Morse language.
 
@@ -11,7 +11,7 @@
 
 ## Authors
 
-👤 **Author1**
+👤 **Anselem Odimegwu**
 
 - GitHub: [@AnselemOdims](https://github.com/AnselemOdims)
 - LinkedIn: [Anselem](https://linkedin.com/in/anselem-odimegwu)
