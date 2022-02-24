@@ -5,7 +5,16 @@ def decode_char(code)
   '...-' => 'V', '.--' => 'W', '-..-' => 'X', '-.--' => 'Y', '--..' => 'Z', '.----' => '1',
   '..---' => '2', '...--' => '3', '....-' => '4', '.....' => '5', '-....' => '6', '--...' => '7',
   '---..' => '8', '----.' => '9', '-----' => '0' }
-  puts decoder[code]
+  decoder[code]
 end
 
-decode_char('.-')
+puts decode_char('.-')
+
+def decode_word(code)
+  result = ''
+  arr = code.split(' ')
+  arr.each {|item| result += decode_char(item)}
+  result
+end
+
+puts decode_word("-- -.--")
